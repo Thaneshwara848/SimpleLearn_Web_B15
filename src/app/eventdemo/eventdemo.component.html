@@ -17,3 +17,25 @@ NAME  :<input type="text" #username>
 <hr>
 
 <input type="submit" value="CLICK" [disabled]="mychoice">
+<hr>
+   <div class="container-fluid">
+    <form>
+        principle  :<input type="text" #p><br> 
+        Time  :<input type="text" #t><br>
+        RATE   :<input type="text" #r disabled value={{roi}}><br>
+        <select (change)="loan($event)">
+            <option >Type of LOAN  </option>
+            <option value="car">CAR </option>
+            <option value="home">HOME </option>
+            <option value="personal">PERSONL </option>
+            <option value="eduation">EDUCATION </option>
+        </select><br>
+        EMI : <input type="text" id="emi" value={{myemi}}><br>
+        TOTAL : <input type="text" id="total" value={{mytotal}}><br><br>
+
+        <input type="button" value="CACULATE" (click)="cal(p.value,t.value,r.value)" class="btn btn-primary">
+        <input type="reset" value="RESET" class="btn btn-danger">
+       </form>
+        
+
+   </div>
