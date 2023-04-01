@@ -12,6 +12,7 @@ import { DevelopemtComponent } from './developemt/developemt.component';
 import { TesteingComponent } from './testeing/testeing.component';
 import { ServicessComponent } from './servicess/servicess.component';
 import { EventdemoComponent } from './eventdemo/eventdemo.component';
+import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EventdemoComponent } from './eventdemo/eventdemo.component';
     DevelopemtComponent,
     TesteingComponent,
     ServicessComponent,
-    EventdemoComponent
+    EventdemoComponent,
+    DirectivesdemoComponent
   ],
   imports: [
     BrowserModule,

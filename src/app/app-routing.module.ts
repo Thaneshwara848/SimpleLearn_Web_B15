@@ -9,6 +9,7 @@ import { DevelopemtComponent } from './developemt/developemt.component';
 import { TesteingComponent } from './testeing/testeing.component';
 import { ServicessComponent } from './servicess/servicess.component';
 import { EventdemoComponent } from './eventdemo/eventdemo.component';
+import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,9 @@ const routes: Routes = [
   },
   {
     path:'eventdemo',component:EventdemoComponent
+  },
+  {
+    path:'directive',component:DirectivesdemoComponent
   },
   {
     path:"dept",component:DepartmentComponent,

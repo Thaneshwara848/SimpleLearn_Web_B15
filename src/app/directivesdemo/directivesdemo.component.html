@@ -1,0 +1,23 @@
+<h1> Hi Welcome to Directive Demo</h1>
+
+
+<div>
+    <h1> Hiiiiiiiiiiiiiiiiiiiiii</h1>
+</div>
+<!-- <div *ngIf="false"> -->
+<div *ngIf="choice">
+    <h1> Heloooooooooooooooooo</h1>
+</div>
+<hr>
+<ul *ngFor="let employees of emp">
+    <li>{{employees}}</li>
+</ul>
+<hr>
+
+Fruits : <input type="text" #addfruit>
+<input type="submit" value="Add Fruit" (click)="fruitsname(addfruit.value)">
+
+<ul *ngFor="let fruit of fruits">
+    <li>{{fruit}}</li>
+
+    <!-- <li *ngIf="fruit=='Apple'">{{fruit}}</li></ul> -->
