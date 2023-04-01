@@ -6,5 +6,14 @@
     <h3> Two way </h3>
         event+ property  -->
 
+       
+        <h1> HI {{name}}</h1>
 
-<input type="submit" value="CLICK" (click)="abc()">
+<input type="submit" value="SUBMIT" (click)="abc()">
+<br>
+NAME  :<input type="text" #username>
+<input type="submit" value="CLICK" (click)="getName(username.value)">
+
+<hr>
+
+<input type="submit" value="CLICK" [disabled]="mychoice">
