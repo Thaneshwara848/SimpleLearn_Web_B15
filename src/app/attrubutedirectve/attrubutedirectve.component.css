@@ -1,0 +1,10 @@
+div{
+    width: 50%;
+    height: 100px;
+}
+.bgclr{
+    background-color: pink;
+}
+.brdr{
+    border: 5px solid red ;
+}

@@ -15,4 +15,8 @@ export class DirectivesdemoComponent {
 this.fruits.push(fruit);
   }
   
+  day=0;
+  options(opt:any){
+    this.day=opt;
+  }
 }

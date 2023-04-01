@@ -13,6 +13,7 @@ import { TesteingComponent } from './testeing/testeing.component';
 import { ServicessComponent } from './servicess/servicess.component';
 import { EventdemoComponent } from './eventdemo/eventdemo.component';
 import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
+import { AttrubutedirectveComponent } from './attrubutedirectve/attrubutedirectve.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.compone
     TesteingComponent,
     ServicessComponent,
     EventdemoComponent,
-    DirectivesdemoComponent
+    DirectivesdemoComponent,
+    AttrubutedirectveComponent
   ],
   imports: [
     BrowserModule,
