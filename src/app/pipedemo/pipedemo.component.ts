@@ -7,6 +7,22 @@ import { Component } from '@angular/core';
 })
 export class PipedemoComponent {
 
+
+  name="thaNESh iS a jaVA tRainer";
+  amount=123456789;
+  d= new Date();
+  emp1 = [
+    {
+    id:100,
+    uname:'Abi',
+    email:"AbiABC@gnail.com"
+    },
+  ]
+
+
+
+
+
   // emp = ["Abi","Bindu","Chandu","Sindu","Pravin"];
   emp = [
     {

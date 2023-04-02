@@ -1,65 +1,40 @@
 <p>pipedemo works!</p>
+<h3>
+    {{name}}<br>
+{{name | uppercase}}<br>
+{{name | lowercase}}<br>
+{{name | titlecase}}<br>
+<br>
+
+{{amount}}<br>
+{{amount | currency}}<br>
+{{amount | currency: 'INR'}}<br>
+{{amount | currency :'JPY'}}<br>
+{{amount | currency :'EUR'}}<br>
+
+
+<br>
+
+{{d }}<br>
+{{d | date}}<br>
+{{d | date :'yyyy-MM-dd'}}<br>
+
+{{d | date :'dd-MM-yyyy'}}<br>
+
+{{d | date :'dd-MM-yy'}}<br>
+
+{{d | date :'dd-MM-yy hh-mm-ss'}}<br>
+<br>
+
+{{emp1}}<br>
+
+{{emp1| json}}<br>
+</h3>
+
+<hr>
+
 <ul *ngFor="let employee of emp">
     <li>{{employee.id}}=====>{{employee.uname | uppercase}}====>{{employee.email | lowercase }}</li>
 </ul>
-<!-- 
+<hr> 
 
-        C : 100 % 
-
-       Core java : JDBC : 5 stpes : 50 %  
-            load the driver :   mysql=======com.mysql.jdbc.Driver
-                                orcale====> "oracle.jdbc.driver.OracleDriver"
-                                mongoDb===> drivername 
-                                    table: dev ....!
-                                    insert insto emp value()
-                                    seelet : select * from emp where id = ? 
-                                    delet : delete from emp where id= ? 
-                                    update : updTE EMP set sal= ? where id= ? 
-                                    1-m
-                                    1-m
-                                    m-m
-                                    m-1
-        Hibernate : 70 % 
-                            frewaowk :
-                            @Entity
-                            @Id
-                            @Colume 
-                            ORM : 
-
-                                save 
-                                load/ get : 
-                                       
-                                delete 
-                                       
-                                update or upsert
-                            @oneToOne
-
-      Boot  JPA: java Persistance API :  80 %  : fremwwork 
-                                    20 % logic  : 
-                                        findById(100);
-                                        findAll();
-                                        findTop();
-                                        finfBoottom();
-                                         deleteById();
-
-
-        Servlet / JSP ------------------JDBC------------MYSQL : 50 %  
-        springMVC----------------------Hibernate-------MYSQL : 70 % 
-        Springweb---------------------JPA -------------MYSQL  : 80% 
-
-        Angualr  70 % 
-            login 
-                    .html
-                    .css
-                    .ts
-                    .spec.ts
-
-        Component orientd
-        Faseter Deve
-        Live Relodibng....!
-        navigate : ROuting in Angualr ....!Easy  ....!
-        send the data html to ts or ts html : 
-        () [] {}
-
-        trnsorm the data : pipe : 
- -->
