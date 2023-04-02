@@ -21,6 +21,8 @@ import { GoldComponent } from './loan/gold/gold.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrpipePipe } from './sqrpipe.pipe';
 import { CubepipePipe } from './cubepipe.pipe';
+import { FormsDemoComponent } from './forms-demo/forms-demo.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,11 +44,13 @@ import { CubepipePipe } from './cubepipe.pipe';
     GoldComponent,
     PipedemoComponent,
     SqrpipePipe,
-    CubepipePipe
+    CubepipePipe,
+    FormsDemoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,6 +12,7 @@ import { EventdemoComponent } from './eventdemo/eventdemo.component';
 import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
 import { LoanComponent } from './loan/loan.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { FormsDemoComponent } from './forms-demo/forms-demo.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,8 @@ const routes: Routes = [
   },
   {
     path:'eventdemo',component:EventdemoComponent
+  },{
+    path:'forms',component:FormsDemoComponent
   },
   {
     path:'directive',component:DirectivesdemoComponent
