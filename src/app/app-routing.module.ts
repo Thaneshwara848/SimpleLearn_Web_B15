@@ -10,6 +10,8 @@ import { TesteingComponent } from './testeing/testeing.component';
 import { ServicessComponent } from './servicess/servicess.component';
 import { EventdemoComponent } from './eventdemo/eventdemo.component';
 import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
+import { LoanComponent } from './loan/loan.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 const routes: Routes = [
   {
@@ -31,6 +33,12 @@ const routes: Routes = [
     path:'directive',component:DirectivesdemoComponent
   },
   {
+    path:'loan',component:LoanComponent
+  },
+  {
+    path:'pipedemo',component:PipedemoComponent
+  },
+  {
     path:"dept",component:DepartmentComponent,
     // children: [
     //   { path: 'dev', component:DevelopemtComponent },
@@ -46,12 +54,13 @@ const routes: Routes = [
   },
   {
     path:"dept/service",component:ServicessComponent
-  }
+  },
   // {
-  //   path:'',component:LoginComponent
-  // }
+  //   path:'',component:HomeComponent
+  // },
   // {
   //   path:'**',component:LoginComponent
+  // wild card Routs 
   // }
 ];
 

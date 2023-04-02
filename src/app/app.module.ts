@@ -14,6 +14,11 @@ import { ServicessComponent } from './servicess/servicess.component';
 import { EventdemoComponent } from './eventdemo/eventdemo.component';
 import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
 import { AttrubutedirectveComponent } from './attrubutedirectve/attrubutedirectve.component';
+import { LoanComponent } from './loan/loan.component';
+import { EduComponent } from './loan/edu/edu.component';
+import { PersonalComponent } from './loan/personal/personal.component';
+import { GoldComponent } from './loan/gold/gold.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { AttrubutedirectveComponent } from './attrubutedirectve/attrubutedirectv
     ServicessComponent,
     EventdemoComponent,
     DirectivesdemoComponent,
-    AttrubutedirectveComponent
+    AttrubutedirectveComponent,
+    LoanComponent,
+    EduComponent,
+    PersonalComponent,
+    GoldComponent,
+    PipedemoComponent
   ],
   imports: [
     BrowserModule,
