@@ -29,9 +29,21 @@
 {{emp1}}<br>
 
 {{emp1| json}}<br>
-</h3>
 
 <hr>
+{{5 | sqrpipe }}<br>
+{{ 10 |sqrpipe }}<br>
+
+{{5 | cubepipe}}<br>
+{{10| cubepipe}}
+
+
+
+
+<hr>
+</h3>
+
+
 
 <ul *ngFor="let employee of emp">
     <li>{{employee.id}}=====>{{employee.uname | uppercase}}====>{{employee.email | lowercase }}</li>

@@ -19,6 +19,8 @@ import { EduComponent } from './loan/edu/edu.component';
 import { PersonalComponent } from './loan/personal/personal.component';
 import { GoldComponent } from './loan/gold/gold.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrpipePipe } from './sqrpipe.pipe';
+import { CubepipePipe } from './cubepipe.pipe';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
     EduComponent,
     PersonalComponent,
     GoldComponent,
-    PipedemoComponent
+    PipedemoComponent,
+    SqrpipePipe,
+    CubepipePipe
   ],
   imports: [
     BrowserModule,
