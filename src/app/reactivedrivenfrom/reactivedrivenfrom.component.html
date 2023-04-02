@@ -1,0 +1,12 @@
+<form [formGroup]="student">
+    <h3>
+        First name :<input type="text" formControlName="firstname"><br>
+        Last Name : <input type="text"formControlName="lastname"><br>
+        USer Age : <input type="text" formControlName="userage"><br>
+
+       <br> <input type="submit" value="Register"  class="btn btn-primary" [disabled]="student.invalid">
+            <input type="reset" value="Reset"   class="btn btn-danger"><br>
+
+       
+    </h3>
+</form>

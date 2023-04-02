@@ -22,7 +22,8 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrpipePipe } from './sqrpipe.pipe';
 import { CubepipePipe } from './cubepipe.pipe';
 import { FormsDemoComponent } from './forms-demo/forms-demo.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule ,ReactiveFormsModule} from '@angular/forms';
+import { ReactivedrivenfromComponent } from './reactivedrivenfrom/reactivedrivenfrom.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +46,14 @@ import { FormsModule } from '@angular/forms';
     PipedemoComponent,
     SqrpipePipe,
     CubepipePipe,
-    FormsDemoComponent
+    FormsDemoComponent,
+    ReactivedrivenfromComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
