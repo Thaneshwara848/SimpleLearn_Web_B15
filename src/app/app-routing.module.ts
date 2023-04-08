@@ -13,6 +13,7 @@ import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.compone
 import { LoanComponent } from './loan/loan.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { FormsDemoComponent } from './forms-demo/forms-demo.component';
+import { HttpintegrationComponent } from './httpintegration/httpintegration.component';
 
 const routes: Routes = [
   {
@@ -43,6 +44,9 @@ const routes: Routes = [
   },
   {
     path:'serv',component:ServicessComponent
+  },
+  {
+    path:'http',component:HttpintegrationComponent
   },
   {
     path:"dept",component:DepartmentComponent,

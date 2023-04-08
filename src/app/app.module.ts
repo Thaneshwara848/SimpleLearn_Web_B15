@@ -28,6 +28,8 @@ import { CommonservComponent } from './commonserv/commonserv.component';
 import { Serv1Component } from './serv1/serv1.component';
 import { Serv2Component } from './serv2/serv2.component';
 import { Serv3Component } from './serv3/serv3.component';
+import { HttpintegrationComponent } from './httpintegration/httpintegration.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -55,13 +57,15 @@ import { Serv3Component } from './serv3/serv3.component';
     CommonservComponent,
     Serv1Component,
     Serv2Component,
-    Serv3Component
+    Serv3Component,
+    HttpintegrationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
