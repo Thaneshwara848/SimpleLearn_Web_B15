@@ -24,6 +24,10 @@ import { CubepipePipe } from './cubepipe.pipe';
 import { FormsDemoComponent } from './forms-demo/forms-demo.component';
 import { FormsModule ,ReactiveFormsModule} from '@angular/forms';
 import { ReactivedrivenfromComponent } from './reactivedrivenfrom/reactivedrivenfrom.component';
+import { CommonservComponent } from './commonserv/commonserv.component';
+import { Serv1Component } from './serv1/serv1.component';
+import { Serv2Component } from './serv2/serv2.component';
+import { Serv3Component } from './serv3/serv3.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +51,11 @@ import { ReactivedrivenfromComponent } from './reactivedrivenfrom/reactivedriven
     SqrpipePipe,
     CubepipePipe,
     FormsDemoComponent,
-    ReactivedrivenfromComponent
+    ReactivedrivenfromComponent,
+    CommonservComponent,
+    Serv1Component,
+    Serv2Component,
+    Serv3Component
   ],
   imports: [
     BrowserModule,

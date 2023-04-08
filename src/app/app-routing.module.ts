@@ -42,6 +42,9 @@ const routes: Routes = [
     path:'pipedemo',component:PipedemoComponent
   },
   {
+    path:'serv',component:ServicessComponent
+  },
+  {
     path:"dept",component:DepartmentComponent,
     // children: [
     //   { path: 'dev', component:DevelopemtComponent },
